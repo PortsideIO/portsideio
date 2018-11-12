@@ -1,0 +1,18 @@
+{
+	"files.exclude": {
+    "**/.sass-cache/": true,
+    "**/_site/": true,
+    ".bundle/": true
+  },
+  "files.associations": {
+    "*.html": "jekyll"
+  },
+  "search.exclude": {
+    "**/.sass-cache/": true,
+    "_site/**": true,
+    ".vscode/**": true,
+    "*.lock": true,
+    "node_modules/": true,
+    ".bundle/": true
+  }
+}
