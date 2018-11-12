@@ -19,9 +19,21 @@ email: hello@portside.io
 description: >
   Based in Dayton, Ohio, Portside is a software development company, who is passionate about creating clean, well-designed, and easy-to-use products for desktop, mobile and web.
 baseurl: '' # the subpath of your site, e.g. /blog
-url: '' # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: portsideio
-github_username: portsideio
+url: 'https://portside.io' # the base hostname & protocol for your site, e.g. http://example.com
+
+# SEO
+google_analytics: UA-92578146-4
+google_site_verification:
+  google:
+  bing:
+# Social Media
+twitter:
+  username: portsideio
+  card: summary
+github:
+  username: PortsideIO #https://github.com/PortsideIO
+linkedin:
+  username: PortsideIO #https://www.linkedin.com/company/portside-ltd/
 
 # Build settings
 markdown: kramdown
