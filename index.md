@@ -4,5 +4,6 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 tagline: Ideas Start Here
-sub-tagline: Launching products and shipping code always starts at Portside
+description: Portside is a software development company focused on <span>Designing</span>, <span>Building</span> & <span>Shipping Code</span> for custom Enterprise Solutions for small to medium size businesses.
+button_text: Let's Talk
 ---

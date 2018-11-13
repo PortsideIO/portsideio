@@ -16,16 +16,13 @@ textarea {
   font-size: inherit;
   line-height: inherit;
 }
-
 img {
   vertical-align: middle;
-  max-width: 100%;
-  height: auto;
 }
 body {
-  background: #20252b;
-  color: #f5f5f5;
-  color: rgba(245, 245, 245, 0.9);
+  background: $text-color;
+  color: $off-white;
+  color: rgba($off-white, 0.9);
   font-family: $base-font-family;
   font-size: $base-font-size;
 }
@@ -33,13 +30,14 @@ section {
   overflow: hidden;
 }
 ::selection {
-  background: #161a1b;
-  color: #fff;
+  background: $brand-color;
+  color: $off-white;
 }
 ::-moz-selection {
-  background: #161a1b;
-  color: #fff;
+  background: $brand-color;
+  color: $off-white;
 }
 
 @import 'hero';
+@import 'layout';
 @import 'icons';

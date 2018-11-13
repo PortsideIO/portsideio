@@ -32,6 +32,8 @@ github:
   username: PortsideIO #https://github.com/PortsideIO
 linkedin:
   username: PortsideIO #https://www.linkedin.com/company/portside-ltd/
+facebook:
+  useraname: Portside.io #https://www.facebook.com/portside.io
 
 # Build settings
 markdown: kramdown

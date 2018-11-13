@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Rubik:900');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Rubik:700');
 
 // Define defaults for each variable.
 $base-font-family: 'Open Sans', sans-serif !default;
@@ -13,7 +13,7 @@ $spacing-unit: 30px !default;
 
 $text-color: #010e12 !default;
 $off-white: #fdfdfd !default;
-$brand-color: #eb9a28 !default;
+$brand-color: #00a3ff !default;
 
 $grey-color: #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
