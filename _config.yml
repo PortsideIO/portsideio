@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: 'Portside'
+tagline: Ideas Start Here
 email: hello@portside.io
 description: >
   Based in Dayton, Ohio, Portside is a software development company, who is passionate about creating clean, well-designed, and easy-to-use products for desktop, mobile and web.
