@@ -77,13 +77,13 @@ module.exports = {
 
   deploy: {
     remote: 'root@138.197.5.116', // Server IP ie: root@192.168.0.1 OR ServerName if you use agentforwarding
-    root: '/srv/users/serverpilot/apps/portside/public/', // Path to web root ie: /var/www/html
+    root: '/srv/users/serverpilot/apps/portside/public', // Path to web root ie: /var/www/html
     exclude: [
       // Excluding files/folders inside of the _site folder
       '.DS_Store',
       '*.lock',
       '.git',
     ],
-    dryrun: true, // set to false if you want to deploy to your remote server
+    dryrun: false, // set to false if you want to deploy to your remote server
   },
 };
