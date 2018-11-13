@@ -1,11 +1,11 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rubik:900');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Rubik:900');
 
 // Define defaults for each variable.
 $base-font-family: 'Open Sans', sans-serif !default;
 $title-font-family: 'Rubik', sans-serif !default;
 $base-font-size: 16px !default;
-$base-font-weight: 400 !default;
+$base-font-weight: 300 !default;
 $small-font-size: $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
@@ -13,7 +13,7 @@ $spacing-unit: 30px !default;
 
 $text-color: #010e12 !default;
 $background-color: #fdfdfd !default;
-$brand-color: #2a7ae2 !default;
+$brand-color: #eb9a28 !default;
 
 $grey-color: #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;

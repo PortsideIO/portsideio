@@ -26,6 +26,7 @@
     opacity: 0.4;
   }
 }
+
 .preloader {
   display: block;
   position: fixed;
@@ -36,31 +37,30 @@
   text-align: center;
   &__loading-title {
     font-size: 0.8rem;
-    margin-top: 20px;
-    animation: blink-text 1s infinite;
-  }
-  &img {
+    font-weight: $base-font-weight;
+    margin-top: 1.25rem;
     animation: blink-text 1s infinite;
   }
 }
+
 .loading {
   overflow: hidden;
   position: absolute;
   top: 50%;
-  margin-top: -100px;
+  margin-top: -6.25rem;
   left: 50%;
-  margin-left: -50px;
-  width: 100px;
-  height: 200px;
+  margin-left: -3.125rem;
+  width: 6.25rem;
+  height: 12.5rem;
 }
 .progress {
   display: block;
   position: absolute;
-  bottom: 50px;
+  bottom: 3.125rem;
   overflow: hidden;
-  width: 100px;
+  width: 6.25rem;
   height: 1px;
-  left: -102px;
+  left: -6.375rem;
   background-color: $brand-color;
   animation: loader-anim 1s 0s infinite cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
