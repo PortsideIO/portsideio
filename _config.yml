@@ -15,10 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 
 title: 'Portside'
-tagline: Ideas Start Here
 email: hello@portside.io
 description: >
-  Based in Dayton, Ohio, Portside is a software development company, who is passionate about creating clean, well-designed, and easy-to-use products for desktop, mobile and web.
+  Based in Dayton, Ohio, Portside is a software development company, who specializes in desktop, mobile and web application design and develpoment.
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://portside.io' # the base hostname & protocol for your site, e.g. http://example.com
 
