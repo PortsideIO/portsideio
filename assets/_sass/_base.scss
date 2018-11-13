@@ -1,18 +1,45 @@
-/**
- * Icons
- */
-
-.svg-icon {
-  width: 16px;
-  height: 16px;
-  display: inline-block;
-  fill: #{$grey-color};
-  padding-right: 5px;
-  vertical-align: text-top;
-}
-
-.social-media-list {
-  li + li {
-    padding-top: 5px;
+* {
+  box-sizing: border-box;
+  &:before,
+  &:after {
+    @extend *;
   }
 }
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+body {
+  background: #20252b;
+  color: #f5f5f5;
+  color: rgba(245, 245, 245, 0.9);
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+}
+section {
+  overflow: hidden;
+}
+::selection {
+  background: #161a1b;
+  color: #fff;
+}
+::-moz-selection {
+  background: #161a1b;
+  color: #fff;
+}
+
+@import 'hero';
+@import 'icons';

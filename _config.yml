@@ -21,11 +21,9 @@ description: >
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://portside.io' # the base hostname & protocol for your site, e.g. http://example.com
 
+logo: portside_logo.png
 # SEO
 google_analytics: UA-92578146-4
-google_site_verification:
-  google:
-  bing:
 # Social Media
 twitter:
   username: portsideio

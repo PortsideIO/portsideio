@@ -3,7 +3,7 @@
 
 // Define defaults for each variable.
 $base-font-family: 'Open Sans', sans-serif !default;
-$title-font-famil: 'Rubik', sans-serif !default;
+$title-font-family: 'Rubik', sans-serif !default;
 $base-font-size: 16px !default;
 $base-font-weight: 400 !default;
 $small-font-size: $base-font-size * 0.875 !default;
@@ -45,4 +45,6 @@ $on-laptop: 800px !default;
 }
 
 // Import partials.
-@import 'base', 'layout', 'loader';
+@import 'loader';
+@import 'normalize';
+@import 'base';

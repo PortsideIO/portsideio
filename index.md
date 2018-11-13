@@ -4,5 +4,5 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 tagline: Ideas Start Here
-sub-tagline: Discovery what the digital fronteer can do for your business
+sub-tagline: Launching products and shipping code always starts at Portside
 ---

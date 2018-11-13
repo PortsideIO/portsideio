@@ -1,105 +1,9 @@
-@-webkit-keyframes loader-anim {
-  0% {
-    left: -102px;
-  }
-  100% {
-    left: 102px;
-  }
-}
-@-moz-keyframes loader-anim {
-  0% {
-    left: -102px;
-  }
-  100% {
-    left: 102px;
-  }
-}
 @keyframes loader-anim {
   0% {
     left: -102px;
   }
   100% {
     left: 102px;
-  }
-}
-@-webkit-keyframes blink-text {
-  0% {
-    opacity: 1;
-  }
-  20% {
-    opacity: 0.5;
-  }
-  40% {
-    opacity: 0.2;
-  }
-  60% {
-    opacity: 0.7;
-  }
-  80% {
-    opacity: 0.1;
-  }
-  90% {
-    opacity: 0.4;
-  }
-}
-@-moz-keyframes blink-text {
-  0% {
-    opacity: 1;
-  }
-  20% {
-    opacity: 0.5;
-  }
-  40% {
-    opacity: 0.2;
-  }
-  60% {
-    opacity: 0.7;
-  }
-  80% {
-    opacity: 0.1;
-  }
-  90% {
-    opacity: 0.4;
-  }
-}
-@-ms-keyframes blink-text {
-  0% {
-    opacity: 1;
-  }
-  20% {
-    opacity: 0.5;
-  }
-  40% {
-    opacity: 0.2;
-  }
-  60% {
-    opacity: 0.7;
-  }
-  80% {
-    opacity: 0.1;
-  }
-  90% {
-    opacity: 0.4;
-  }
-}
-@-o-keyframes blink-text {
-  0% {
-    opacity: 1;
-  }
-  20% {
-    opacity: 0.5;
-  }
-  40% {
-    opacity: 0.2;
-  }
-  60% {
-    opacity: 0.7;
-  }
-  80% {
-    opacity: 0.1;
-  }
-  90% {
-    opacity: 0.4;
   }
 }
 @keyframes blink-text {
@@ -130,8 +34,12 @@
   z-index: 9999;
   background: $text-color;
   text-align: center;
-  h2 {
+  &__loading-title {
+    font-size: 0.8rem;
     margin-top: 20px;
+    animation: blink-text 1s infinite;
+  }
+  &img {
     animation: blink-text 1s infinite;
   }
 }
