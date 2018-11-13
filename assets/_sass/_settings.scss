@@ -2,46 +2,36 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Rubik:700');
 
 // Define defaults for each variable.
+// Base font size is 16px via browser defaults
+// so use REMs ie: 48px = 3rem --> (48/16 = 3)
 $base-font-family: 'Open Sans', sans-serif !default;
 $title-font-family: 'Rubik', sans-serif !default;
-$base-font-size: 16px !default;
 $base-font-weight: 300 !default;
-$small-font-size: $base-font-size * 0.875 !default;
-$base-line-height: 1.5 !default;
-
-$spacing-unit: 30px !default;
+$base-font-size: 16px !default;
 
 $text-color: #010e12 !default;
 $off-white: #fdfdfd !default;
 $brand-color: #00a3ff !default;
-
-$grey-color: #828282 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark: darken($grey-color, 25%) !default;
-
-$table-text-align: left !default;
+$brand-alt: #f08a4b !default;
 
 // Width of the content area
 $content-width: 800px !default;
 
 $on-palm: 600px !default;
+$on-tablet: 767px !default;
 $on-laptop: 800px !default;
 
 // Use media queries like this:
-// @include media-query($on-palm) {
+// @include mq($on-palm) {
 //   .wrapper {
 //     padding-right: $spacing-unit / 2;
 //     padding-left: $spacing-unit / 2;
 //   }
 // }
-@mixin media-query($device) {
+@mixin mq($device) {
   @media screen and (max-width: $device) {
     @content;
   }
-}
-
-@mixin relative-font-size($ratio) {
-  font-size: $base-font-size * $ratio;
 }
 
 // Import partials.

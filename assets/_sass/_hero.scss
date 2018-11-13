@@ -8,17 +8,43 @@
 .hero {
   max-width: 42.5rem;
   margin: 0 auto;
+  @include mq($on-tablet) {
+    max-width: 550px;
+    text-align: center;
+  }
   &__tagline {
     @extend %default_tagline;
     font-size: 6.6rem;
     line-height: 6.6rem;
     padding: 0.625rem 0;
+    @include mq($on-tablet) {
+      font-size: 4.2rem;
+      line-height: 4rem;
+    }
+    @include mq($on-palm) {
+      font-size: 2.8rem;
+      line-height: 2.6rem;
+    }
   }
   &__description {
-    font-size: 0.9rem;
-    letter-spacing: 1px;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.09375rem;
     margin-top: -0.625rem;
     margin-bottom: 1.25rem;
+    @include mq($on-palm) {
+      margin: 0.5rem 2.7rem 2.1rem;
+      text-align: center;
+      font-size: 1rem;
+    }
+    span {
+      background-color: rgba($brand-color, 0.25);
+      padding: 0 0.5rem;
+      @include mq($on-palm) {
+        background-color: transparent;
+        padding: 0;
+      }
+    }
   }
   &__logo {
     width: 15rem;
@@ -26,11 +52,15 @@
   &__line {
     display: block;
     margin: 0;
-    margin-bottom: 0.625rem;
     margin-left: 3rem;
+    margin-bottom: 0.625rem;
     width: 6rem;
     height: 0.125rem;
     background: $brand-color;
+    @include mq($on-tablet) {
+      margin: 0 auto;
+      margin-bottom: 0.625rem;
+    }
   }
   &__button {
     display: inline-block;
@@ -44,6 +74,7 @@
     letter-spacing: 0.5em;
     color: $off-white;
     border: 1px solid rgba($off-white, 0.8);
+    border-radius: 0.1875rem;
     padding: 1rem 2.1875rem;
     transition: all 0.3s ease-in-out;
     &:hover {

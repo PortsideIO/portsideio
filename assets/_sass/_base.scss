@@ -38,6 +38,4 @@ section {
   color: $off-white;
 }
 
-@import 'hero';
-@import 'layout';
-@import 'icons';
+@import 'hero', 'layout';
