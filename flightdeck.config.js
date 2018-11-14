@@ -17,13 +17,13 @@ module.exports = {
     browsers: [
       // "Google Chrome Canary",
       // "Google Chrome",
-      // "Firefox Nightly",
+      'Firefox Nightly',
       // "Firefox Developer Edition",
       // "Firefox",
       // "Safari Technology Preview",
       // "Safari",
       // "Opera",
-      // "Opera Developer",
+      'Opera Developer',
     ],
   },
 
