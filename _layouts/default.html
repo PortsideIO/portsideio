@@ -4,21 +4,13 @@
   {%- include head.html -%}
 
   <body>
-
-  <header class="preloader">
-    <div class="loading">
-      <img src="assets/images/{{site.logo}}" alt="Portside LTD" class="preloader__loading-logo">
-      <h2 class="preloader__loading-title">Loading...</h2>
-      <span class="progress"></span>
-    </div>
-    <script type="text/javascript">$(window).load(function(){$('.preloader').fadeOut('slow');});</script>
-  </header>
+    {%- include header.html -%}
     <main>
       <div class="wrapper">
         {{ content }}
       </div> 
     </main>
-    <script src="assets/js/bundle.js"type="text/javascript"></script>
+    <script src="assets/js/bundle.min.js"type="text/javascript"></script>
   </body>
 
 </html>
