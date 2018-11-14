@@ -4,6 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 tagline: Ideas Start Here
-description: PORTSIDE is <span>a software development company</span> focused on Designing, Building & Shipping Code for custom enterprise solutions for small to medium sized businesses.
+message: PORTSIDE is <span>a software development company</span> focused on Designing, Building & Shipping Code for custom enterprise solutions for small to medium sized businesses.
 button_text: Let's Talk
+image: /assets/images/portside_poster.jpg
 ---

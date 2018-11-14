@@ -24,6 +24,7 @@ url: 'https://portside.io' # the base hostname & protocol for your site, e.g. ht
 logo: portside_logo.png
 # SEO
 google_analytics: UA-92578146-4
+
 # Social Media
 twitter:
   username: portsideio
